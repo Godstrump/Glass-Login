@@ -27,6 +27,21 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
+    @media (max-width: 90.5em) {
+        body {
+            height: 100vh;
+        }
+
+        .container {
+            margin: 0 auto;
+        }
+    }
+    
+    @media (max-width: 50em) {
+        body {
+            background-repeat: repeat-y;
+        }
+    }
